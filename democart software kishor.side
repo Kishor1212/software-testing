@@ -1,0 +1,277 @@
+{
+  "id": "7c3b35e1-5b0a-4add-a07b-ea1a3d0baa6f",
+  "version": "2.0",
+  "name": "demo",
+  "url": "https://demo.opencart.com",
+  "tests": [{
+    "id": "01af3a9a-a42f-4f06-8628-bb3f6144af60",
+    "name": "democart",
+    "commands": [{
+      "id": "c6340221-77ae-4d0d-abe0-f7b8260acec6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fc035ed-3973-4c13-9f4f-38360cd06808",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b121243-ae60-4b4b-8dca-dc7fe34cb35f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops & Notebooks",
+      "targets": [
+        ["linkText=Laptops & Notebooks", "linkText"],
+        ["css=.show:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptops & Notebooks')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=18')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops & Notebooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b731381-ff23-4adc-9e64-0b2becfb74f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Macs (0)",
+      "targets": [
+        ["linkText=Macs (0)", "linkText"],
+        ["css=.show li:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Macs (0)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=18_46')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Macs (0)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "175bc82d-4c19-4444-8e5e-acfb44a63594",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tablets (1)",
+      "targets": [
+        ["linkText=Tablets (1)", "linkText"],
+        ["css=.list-group-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tablets (1)')]", "xpath:link"],
+        ["xpath=//aside[@id='column-left']/div/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=57')])[2]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tablets (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ceedf3d-21a5-4412-b471-0397251b3ae3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Software (0)",
+      "targets": [
+        ["linkText=Software (0)", "linkText"],
+        ["css=.list-group-item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Software (0)')]", "xpath:link"],
+        ["xpath=//aside[@id='column-left']/div/a[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=17')])[2]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Software (0)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f417655-7fd6-43ab-b316-490ba40c2667",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs (3)",
+      "targets": [
+        ["linkText=Phones & PDAs (3)", "linkText"],
+        ["css=.list-group-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones & PDAs (3)')]", "xpath:link"],
+        ["xpath=//aside[@id='column-left']/div/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=24')])[2]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones & PDAs (3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e16955-6406-4d01-bc10-366e07d0d3f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cameras (2)",
+      "targets": [
+        ["linkText=Cameras (2)", "linkText"],
+        ["css=.list-group-item:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cameras (2)')]", "xpath:link"],
+        ["xpath=//aside[@id='column-left']/div/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=33')])[2]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cameras (2)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ca10af9-0bbd-4265-8d9c-42f2f7a9bc8a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,319)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2d14675-9b17-4494-8252-b45e977ef13b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops & Notebooks (5)",
+      "targets": [
+        ["linkText=Laptops & Notebooks (5)", "linkText"],
+        ["css=.list-group-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptops & Notebooks (5)')]", "xpath:link"],
+        ["xpath=//aside[@id='column-left']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=18')])[5]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops & Notebooks (5)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38417a38-e256-4007-ad2e-431be8a1d6ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7ac6077-0304-4f0e-a6ac-64e2a53361a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8389533e-da3b-4b4d-a8d8-a8832c71cb08",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,719)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2857532e-96f8-496d-8372-f4f23a8e35c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["css=.show:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktops')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e50d482-ddb3-43ef-8c08-a1e22a9810bb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.show li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20_27')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f1d861-8a2d-412b-af4f-40a5dc94504a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-group > button:nth-child(1)",
+      "targets": [
+        ["css=.button-group > button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b23f3d-0ab1-48a3-a0fd-b77192e8c622",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button-group > button:nth-child(1)",
+      "targets": [
+        ["css=.button-group > button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1efc9e69-9d7b-4792-bf55-c547dfded662",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-group > button:nth-child(2)",
+      "targets": [
+        ["css=.button-group > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ce6a9cd-d773-49bb-a531-c37e999a2aaa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button-group > button:nth-child(2)",
+      "targets": [
+        ["css=.button-group > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef90bef6-74cb-4f58-ab85-2b25370e41fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edaa2cf2-4c15-4410-bb13-5c8d2e57d6a9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a272ea-433e-449c-a2a3-61d04df0e699",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "af7c3d0f-2bb9-4ae8-970f-7527f5944504",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01af3a9a-a42f-4f06-8628-bb3f6144af60"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
